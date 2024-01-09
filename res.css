@@ -1,0 +1,389 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.nav-bar{
+    background-color: black;
+    height: 60px;
+    color:white;
+    width: min(100%, 10000px);  
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.logo{
+    height: 49px;
+    width: 100%;
+    background-image: url(amazon1.webp);
+    background-size: cover;
+    
+}
+.image{
+    height: 55px;
+    width: 100px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.gif{
+    display: flex;
+    margin-left: 5px;
+}
+.deliver{
+    margin-left: 22px;
+    font-size: smaller;
+}
+.contact{
+     /* height: 55px;  */
+    width: 90px; 
+}
+.gif p{
+    font-size: medium;
+    margin-left: 5px;
+}
+.search-bar{
+    display: flex;
+    margin-left: 2px;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 20px;
+    width: 800px;
+    height: 40px;
+    justify-content: space-between;
+}
+.gi{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height:40px ;
+    border-radius: 3px ;
+}
+.plcae{
+    width: 720px;
+    border: none;
+}
+.america{
+    height: 30px;
+    width:30px;
+}
+.flag{
+    background-image: url(american.webp);
+    background-size: cover;
+    height: 29px;
+    width: 100%;
+    
+}
+.aer{
+    display: flex;
+    margin-left: 9px;
+    font-size: smaller;
+}
+.option{
+    height: 29px;
+    width:70px;
+}
+.sign-in .hel{
+    font-size: 13px;
+}
+.sign-in .bold{
+    font-weight: 600;
+    font-size: 14px;
+}
+.sign-in{
+    margin-left: 12px;
+}
+.font{
+    height: 30px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+/* @media (min-width:1300px)
+{
+    .nav-bar{
+        font-size: 10px;
+    }
+} */
+.nav-bar2{
+    background-color: #1e1e2e;
+    color: white;
+    height: 40px;
+    width: min(100%, 10000px);  
+    display: flex; 
+    align-items: center;cursor: pointer;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+    height: 30px;
+    margin-right: 10px;
+}
+.p{
+    margin-left: 5px;
+}
+.deals{
+    margin-right: 30px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    /* padding:10px; */
+    height:100px;
+    margin-top: 30px;
+    border:2px solid rgb(227, 222, 222);
+    margin-right: 70px;
+    border-radius: 10px;
+    /* background-color: aqua; */
+}
+.footer{
+    height:120px;
+    background-color: white;
+    width:min(100%, 10000px); 
+    cursor: pointer;
+}
+.see{
+    text-align: center;
+    /* padding: 16px 0px; */
+    padding-top: 19px;
+    bottom:0;
+    /* background-color: blue; */
+}
+.sign {
+    text-align: center;
+    cursor: pointer;
+}
+.butt{
+    width:300px;
+    height: 30px;
+    background-color: rgb(255, 212, 102);
+    border:2px solid transparent;
+    border-radius: 10px;
+}
+.new{
+    text-align: center;
+    margin-top: 5px;
+}
+.new p{
+    font-size: 15px;
+}
+.link{
+    color:rgba(11, 194, 133, 0.71);
+    font-size: 14px;
+}
+.back{
+    height:50px ;
+    width:min(100%, 10000px);  ;
+    background-color: #28303fec;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer4{
+    height: 300px;
+    width:min(100%, 10000px) ;
+    background-color:  #293448ec;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    color: white;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.footer4 p{
+    font-size: x-large;
+    font-weight: 700;
+}
+.know li{
+    margin-bottom: 10px;
+}
+.get1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    /* background-color:aqua; */
+    
+}
+.Pro li{
+    margin-bottom: 10px;
+}
+.Money1{
+    margin-top: 30px;
+}
+.Pro{
+    margin-top: 10px;
+}
+.products{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.sangit li{
+    margin-bottom: 10px;
+}
+.us{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.covid li{
+    margin-bottom: 10px;
+}
+.border1:hover{
+    text-decoration: underline;
+}
+.butthover:hover{
+    color:red;
+}
+
+/* content */
+.hell{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 700px;
+    width:min(100%, 10000px);
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.head8{
+    background-image: url(headshey.avif);
+    background-size: cover;
+    height: 200px;
+    width:300px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.see1{
+    /* background-color: aqua; */
+    position: absolute;
+    bottom: 15px;
+    left:5%;
+    /* display: inline-block; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+.acccessories{
+    background-color: aliceblue;
+    height: 300px;
+    margin-bottom: 20px;
+    position: absolute;
+    left:12px;
+    padding:15px;
+}
+.title5{
+    position: absolute;
+    top:8%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.laptop{
+    background-color: aliceblue;
+    height: 300px;
+    margin-bottom: 20px;
+    position: absolute;
+    left:400px;
+    padding:15px;
+}
+.title6{
+    position: absolute;
+    top:8%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.head9{
+    background-image: url(https://media.istockphoto.com/id/1314343964/photo/top-end-system-unit-for-gaming-computer-close-up.jpg?s=612x612&w=0&k=20&c=d_xKRis8Ccy90gbqCjScpuAEVOvpQN0kdnBxA_H9zRs=);
+    background-size: cover;
+    height: 200px;
+    width:300px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.see2{
+    position: absolute;
+    bottom: 15px;
+    left:5%;
+}
+.toys{
+    background-color: aliceblue;
+    height: 300px;
+    margin-bottom: 20px;
+    position: absolute;
+    left:780px;
+    padding:15px;
+}
+.title7{
+    position: absolute;
+    top:8%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.head10{
+    background-image: url(https://cdn.firstcry.com/education/2022/11/06094158/Toy-Names-For-Kids.jpg);
+    background-size: cover;
+    height: 200px;
+    width:300px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.see3{
+    position: absolute;
+    bottom: 15px;
+    left:5%;
+
+}
+.furniture{
+    background-color: aliceblue;
+    height: 300px;
+    margin-bottom: 20px;
+    position: absolute;
+    left:1150px;
+    padding:15px;
+}
+.title8{
+    position: absolute;
+    top:8%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.head11{
+    background-image: url(https://www.wakefit.co/blog/wp-content/uploads/2022/08/shutterstock_289780904-1.jpg);
+    background-size: cover;
+    height: 200px;
+    width:300px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.see4{
+    position: absolute;
+    bottom: 15px;
+    left:5%;
+
+}
